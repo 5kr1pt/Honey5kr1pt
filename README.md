@@ -33,6 +33,26 @@ pip install pywin32
     
 - Política **Audit File System** (Success **e** Failure) habilitada no servidor.
 
+#### A) Habilitar a sub-categoria no secpol.msc
+<div align="center">
+<img src="secpo.msc.png" width="1000" height="1000">
+</div>
+
+Win + R → secpol.msc
+(ou Política de Segurança Local no menu).
+
+Navegue até Políticas Avançadas de Auditoria ▸ Acesso a Objetos ▸ Auditoria de Sistema de Arquivos.
+
+Clique duas vezes, marque Configurar estes eventos → Êxito e Falha → OK.
+
+Ainda em “Políticas Avançadas de Auditoria”, clique com o botão direito no nó Política de Auditoria Avançada ▸ Propriedades e marque “Substituir política de auditoria de categoria herdada...” (isso força o Windows a usar as sub-categorias que você acabou de configurar).
+
+
+
+Aplicar / OK.
+
+Por fim de um gpupdate /force no servidor ou aguarde propagar normalmente.
+
 ## 🛠️ Instalação rápida
 
 ```powershell
