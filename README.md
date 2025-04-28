@@ -67,7 +67,7 @@ pip install -r requirements.txt
 ## ▶️ Execução
 
 # Prompt elevado (Run as Administrator)
-``python honey5kr1pt_simple.py``
+``python python hk5.py``
 
 O programa perguntará:
 
