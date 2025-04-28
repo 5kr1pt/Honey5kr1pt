@@ -1,7 +1,7 @@
 # Honey5kr1pt 🐝💾
 
 <div align="center">
-<img src="hk.png" width="450" height="600">
+<img src="hk.png" width="470" height="600">
 </div>
 
 Honeypot simples e objetivo para servidores de arquivos Windows/SMB.  
@@ -39,7 +39,7 @@ pip install pywin32
 
 #### A) Habilitar a sub-categoria no secpol.msc
 <div align="center">
-<img src="secpo.msc.png" width="1000" height="1000">
+<img src="secpo.msc.png" width="1000" height="700">
 </div>
 
 Win + R → secpol.msc
