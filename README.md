@@ -1,6 +1,10 @@
 # Honey5kr1pt 🐝💾
 
-Honeypot minimalista para servidores de arquivos Windows/SMB.  
+<div align="center">
+<img src="hk.png" width="450" height="600">
+</div>
+
+Honeypot simples e objetivo para servidores de arquivos Windows/SMB.  
 Ele cria um **arquivo-isca** e registra, em tempo real, cada tentativa de leitura — informando **usuário** e **IP** de origem.
 
 ---
