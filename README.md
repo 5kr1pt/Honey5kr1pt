@@ -67,7 +67,7 @@ pip install -r requirements.txt
 ## ▶️ Execução
 
 # Prompt elevado (Run as Administrator)
-``python python hk5.py``
+``python hk5.py``
 
 O programa perguntará:
 
@@ -88,7 +88,7 @@ Iniciando monitoramento de eventos… Ctrl+C para sair.
 ```
 Quando qualquer usuário abrir o arquivo-isca:
 ```less
-2025-04-27 22:16:05 | INFO | ACESSO id=4663 user=COMUNICACAO\joao ip=172.16.5.44 time=2025-04-27 22:16:04
+2025-04-27 22:16:05 | INFO | ACESSO id=4663 user=COMUNICACAO\curioso ip=172.16.5.44 time=2025-04-27 22:16:04
 ```
 
 ## 📝 Configurando a auditoria (uma vez por servidor)
